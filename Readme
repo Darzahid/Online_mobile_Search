@@ -1,0 +1,49 @@
+ Problem Statement:  
+
+    Automate Search Mobile phones functionality on Online shopping Website 
+
+    Get mobiles smart phones from Amazon online store, which has: 
+
+    1.Price less than Rs.30000
+    2.Mobiles which are newly arrived
+    Suggested site: Amazon however you are free to choose any other legitimate shopping site.  
+
+Detailed Description: 
+
+  1.Launch the browser using the configuration settings Firefox/Chrome.
+  2.Read the application URL from configuration settings. (e.g. https://www.amazon.in)
+  3.Open the URL. User will navigate to home page of website.
+  4.Enter the search text in search box “mobile smartphones under 30000”
+   Application displays the follow message similar to following-
+    o    1-24 of over 1,000 results for "mobile smartphones under 30000"  (1-24 and 1000 numbers will change according to stock available on site that at the time of execution)
+
+  5.In the above text, validate the search string, number of pages( e.g. 1-16), number of items (over 90,000)
+  6.Click on “Sort by list” listbox.
+  7.Application should display four sort by options in the list. Check the count of options displayed.
+  8.Select option “Newest Arrivals”
+  9.Verify that  “Newest Arrivals” option got selected correctly or not.
+ 10.Close the browser.
+Key Automation Scope:
+
+  1.Multiple browser handling
+  2.Assign synchronization technique
+  3.Handling List box
+  4.Exception Handling
+  5.Locating Elements
+  
+Console Output:
+  Enter the browser you want to use Chrome/Edge:
+  chrome
+  1-16 of over 1,000 results for "mobile smartphones under 30000"
+  the search string-Test Passed
+  Number of pages:1-16
+  Number of pages,Test passed
+  Number of items:1,000
+  Number of items,Test passed
+  sortList Count 5 ,Test Failed
+  Newest Arrivals
+  Newest Arrivals selected,Test Passed
+  Browser is closed..
+  
+  
+  
